@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The Following functions creates a special matrix object, caches its inverse, or computes the inverse if the
+## cached value is invalid. 
 
-## The makeCacheMatrix function creates a special matrix object that can cache its inverse.
+## The makeCacheMatrix function creates a special matrix object that caches its inverse.
 ## The cached inverse in initially set to NULL and is set to NULL whenever the data of the matrix is changed.
 
 makeCacheMatrix <- function(x = matrix()) {
